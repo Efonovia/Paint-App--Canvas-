@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 38, 58);
+}
+
+.tools {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(190, 234, 255);
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.tools > div {
+    margin-left: 20px;
+    padding: 0px 5px;
+}
+
+.rect, .pick, .circle {
+    width: 5vw;
+    height: 100%;
+    background-color: rgb(0, 47, 255);
+    cursor: pointer;
+}
+
+canvas {
+
+    background-color: white;
+}
